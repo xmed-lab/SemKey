@@ -1,0 +1,34 @@
+name: semkey
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  # --- Core dependencies ---
+  - python=3.9.*
+  - notebook=7.0
+  - numpy=1.26.4
+  - pandas=2.2
+  - scipy=1.11.4
+  - scikit-learn=1.3
+  - rich=13.7.1
+  - h5py
+  # --- PyTorch ---
+  - pytorch=2.3.1
+  - torchvision=0.18.1
+  - torchaudio=2.3.1
+  - pytorch-cuda=12.1
+  # --- PIP installed dependencies ---
+  - pip
+  - pip:
+    - transformers==4.43.0  # Please upgrade to >=4.48.0 after preprocessing
+    - evaluate==0.4.*
+    - peft==0.12.0
+    - lightning==2.4.0
+    - torchmetrics==1.3.1
+    - einops==0.8.0
+    - timm==0.9.16
+    - tensorboard
+    - keybert
+    - sentence-transformers
