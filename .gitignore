@@ -1,0 +1,68 @@
+# Data directories and files
+zuco_data/
+*.df
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.mat
+
+# dataset
+data/zuco_preprocessed_dataframe/
+/data/zuco_preprocessed_dataframe
+
+# Path to dataset
+/datasets
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+semkey/
+
+# Training outputs
+logs/
+/logs
+checkpoints/
+*.log
+runs/
+tensorboard/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files
+*.pth
+*.ckpt
+*.pt
+*.safetensors
+.claude/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+Archives/
